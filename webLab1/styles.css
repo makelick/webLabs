@@ -45,6 +45,7 @@ a:hover {
     text-align: right;
     grid-column: 2;
     grid-row: 1;
+    margin: auto 0px;
 }
 
 .header_textbox {
@@ -101,6 +102,7 @@ a:hover {
     text-align: left;
     grid-column: 1;
     grid-row: 1;
+    margin: auto 0px;
 }
 
 .footer_textbox {
