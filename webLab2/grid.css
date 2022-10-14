@@ -32,12 +32,23 @@ a:hover {
     grid-template-rows: auto 1fr;
 }
 
-.one {
-    grid-row: 1;
+.head_foot {
     padding: 30px;
     background-color: rgb(150, 50, 200);
     color: rgb(255, 255, 255);
     display: grid;
+}
+
+.textbox {
+    padding: 10px;
+    text-align: center;
+    border: 2px black solid;
+    background-color: white;
+    color: black;
+}
+
+.one {
+    grid-row: 1;
     grid-template-columns: 20% 80%;
 }
 
@@ -49,13 +60,8 @@ a:hover {
 }
 
 .header_textbox {
-    padding: 10px;
-    text-align: center;
     grid-column: 1;
     grid-row: 1;
-    border: 2px black solid;
-    background-color: white;
-    color: black;
 }
 
 .two {
@@ -74,12 +80,30 @@ a:hover {
     grid-row: 1;
 }
 
+.three ul {
+    padding: 0;
+    list-style: none;
+}
+
+.three li {
+    display: inline;
+    padding: 20px;
+}
+
 .four {
     grid-column: 2;
     grid-row: 2;
     padding: 10px;
     background-color: rgb(255, 255, 255);
 
+}
+
+.four p {
+    padding-top: 10px;
+}
+
+.four li {
+    padding: 10px 0px;
 }
 
 .five {
@@ -90,11 +114,7 @@ a:hover {
 }
 
 .six {
-    padding: 30px;
-    background-color: rgb(150, 50, 200);
-    color: rgb(255, 255, 255);
     grid-row: 3;
-    display: grid;
     grid-template-columns: 80% 20%;
 }
 
@@ -106,29 +126,6 @@ a:hover {
 }
 
 .footer_textbox {
-    padding: 10px;
-    text-align: center;
     grid-column: 2;
     grid-row: 1;
-    border: 2px black solid;
-    background-color: white;
-    color: black;
-}
-
-.three ul {
-    padding: 0;
-    list-style: none;
-}
-
-.three li {
-    display: inline;
-    padding: 20px;
-}
-
-.four p {
-    padding-top: 10px;
-}
-
-.four li {
-    padding: 10px 0px;
 }
