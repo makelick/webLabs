@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.layout {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+}
+
+.main {
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+.one {
+    grid-row: 1;
+    padding: 30px;
+    background-color: rgb(150, 50, 200);
+    color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.one p {
+    text-align: right;
+    grid-column: 2;
+    grid-row: 1;
+    margin: auto 0px;
+}
+
+.header_textbox {
+    padding: 10px;
+    text-align: center;
+    grid-column: 1;
+    grid-row: 1;
+    border: 2px black solid;
+    background-color: white;
+    color: black;
+}
+
+.two {
+    background-color: rgb(94, 58, 94);
+    color: rgb(255, 255, 255);
+    padding: 20px 10px;
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.three {
+    background-color: rgb(221, 221, 92);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 1;
+}
+
+.four {
+    grid-column: 2;
+    grid-row: 2;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.five {
+    background-color: rgb(221, 128, 221);
+    padding: 10px;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.six {
+    padding: 30px;
+    background-color: rgb(150, 50, 200);
+    color: rgb(255, 255, 255);
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.six p {
+    text-align: left;
+    grid-column: 1;
+    grid-row: 1;
+    margin: auto 0px;
+}
+
+.footer_textbox {
+    padding: 10px;
+    text-align: center;
+    grid-column: 2;
+    grid-row: 1;
+    border: 2px black solid;
+    background-color: white;
+    color: black;
+}
+
+.three ul {
+    padding: 0;
+    list-style: none;
+}
+
+.three li {
+    display: inline;
+    padding: 20px;
+}
+
+.four p {
+    padding-top: 10px;
+}
+
+.four li {
+    padding: 10px 0px;
+}
