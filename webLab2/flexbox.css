@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.layout {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+}
+
+.head_foot {
+    padding: 30px;
+    background-color: rgb(150, 50, 200);
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.textbox {
+    max-width: 50%;
+    padding: 10px;
+    text-align: center;
+    border: 2px black solid;
+    background-color: white;
+    color: black;
+    flex: 1;
+}
+
+.one p {
+    text-align: right;
+    margin: auto 0px;
+    flex: 4;
+}
+
+.two {
+    background-color: rgb(94, 58, 94);
+    color: rgb(255, 255, 255);
+    padding: 20px 10px;
+    flex: 1;
+}
+
+.main2 {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.three {
+    background-color: rgb(221, 221, 92);
+    flex: none;
+}
+
+
+.three ul {
+    padding: 0;
+    list-style: none;
+}
+
+.three li {
+    display: inline;
+    padding: 20px;
+}
+
+.main3 {
+    flex: auto;
+    display: flex;
+}
+
+.four {
+    flex: 2;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.four p {
+    padding-top: 10px;
+}
+
+.four li {
+    padding: 10px 0px;
+}
+
+.five {
+    background-color: rgb(221, 128, 221);
+    padding: 10px;
+    flex: 1;
+}
+
+.six p {
+    text-align: left;
+    margin: auto 0px;
+    flex: 4;
+    order: 1;
+}
+
+.footer_textbox {
+    order: 2;
+}
