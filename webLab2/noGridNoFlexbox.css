@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.layout {
+    min-height: 100%;
+    display: table;
+}
+
+.main {
+    display: table-row;
+}
+
+.head_foot {
+    background-color: rgb(150, 50, 200);
+    color: rgb(255, 255, 255);
+}
+
+.textbox {
+    padding: 10px;
+    margin: 30px 10px;
+    text-align: center;
+    border: 2px black solid;
+    background-color: white;
+    color: black;
+}
+
+.one p {
+    column-span: all;
+    justify-content: center;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.header_textbox {
+    float: left;
+    margin-left: 30px;
+}
+
+.two {
+    background-color: rgb(94, 58, 94);
+    color: rgb(255, 255, 255);
+    padding: 20px 10px;
+    display: table-cell;
+    width: 25%;
+    vertical-align: top;
+}
+
+.main2 {
+    display: table;
+}
+
+.three {
+    background-color: rgb(221, 221, 92);
+}
+
+.three ul {
+    padding: 0;
+    list-style: none;
+}
+
+.three li {
+    display: inline;
+    padding: 20px;
+}
+
+.main3 {
+    display: table;
+}
+
+.four {
+    display: table-cell;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+
+}
+
+.four p {
+    padding-top: 10px;
+}
+
+.four li {
+    padding: 10px 0px;
+}
+
+.five {
+    background-color: rgb(221, 128, 221);
+    padding: 10px;
+    display: table-cell;
+    width: 25%;
+    vertical-align: top;
+}
+
+.six p {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.footer_textbox {
+    float: right;
+    margin-right: 30px;
+}
