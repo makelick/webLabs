@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web lab 3 - Mail</title>
+</head>
+
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+
+        }
+
+        a:hover {
+            color: rgb(255, 255, 255);
+        }
+
+        .layout {
+            min-height: 100%;
+            display: table;
+        }
+
+        .main {
+            display: table-row;
+        }
+
+        .head_foot {
+            background-color: rgb(150, 50, 200);
+            color: rgb(255, 255, 255);
+        }
+
+        .textbox {
+            padding: 10px;
+            margin: 30px 10px;
+            text-align: center;
+            border: 2px black solid;
+            background-color: white;
+            color: black;
+        }
+
+        .one p {
+            column-span: all;
+            justify-content: center;
+            text-align: right;
+            padding-right: 30px;
+        }
+
+        .header_textbox {
+            float: left;
+            margin-left: 30px;
+        }
+
+        .two {
+            background-color: rgb(94, 58, 94);
+            color: rgb(255, 255, 255);
+            padding: 20px 10px;
+            display: table-cell;
+            width: 25%;
+            vertical-align: top;
+        }
+
+        .main2 {
+            display: table;
+        }
+
+        .three {
+            background-color: rgb(221, 221, 92);
+        }
+
+        .three ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        .three li {
+            display: inline;
+            padding: 20px;
+        }
+
+        .main3 {
+            display: table;
+        }
+
+        .four {
+            display: table-cell;
+            padding: 10px;
+            background-color: rgb(255, 255, 255);
+            width: 50%;
+
+        }
+
+        .four p {
+            padding-top: 10px;
+        }
+
+        .four li {
+            padding: 10px 0px;
+        }
+
+        .five {
+            background-color: rgb(221, 128, 221);
+            padding: 10px;
+            display: table-cell;
+            width: 25%;
+            vertical-align: top;
+        }
+
+        .six p {
+            text-align: left;
+            padding-left: 30px;
+        }
+
+        .footer_textbox {
+            float: right;
+            margin-right: 30px;
+        }
+    </style>
+    <table class="layout" cellpadding="0" cellspacing="0">
+        <td class="one head_foot">
+            <div class="header_textbox textbox">
+                <h1>No grid, no flexbox</h1>
+            </div>
+        </td>
+        <td class=" one head_foot">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </td>
+
+        <tr class="main">
+            <td class="two">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, voluptatem.</p>
+            </td>
+
+            <td class="main2">
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td colspan="2" class="three">
+                            <ul>
+                                <li><a href="flexbox.html">Flexbox</a></li>
+                                <li><a href="grid.html">Grid</a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="main3">
+                        <td class="four">
+                            <h2>Blablabla</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, consectetur animi
+                                deserunt
+                                veritatis dicta rerum! Alias harum nemo voluptatum, labore iste quis quidem vitae
+                                tempora
+                                sed
+                                minima
+                                deleniti, beatae sapiente?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, consectetur animi
+                                deserunt
+                                veritatis dicta rerum! Alias harum nemo voluptatum, labore iste quis quidem vitae
+                                tempora
+                                sed
+                                minima
+                                deleniti, beatae sapiente?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, consectetur animi
+                                deserunt
+                                veritatis dicta rerum! Alias harum nemo voluptatum, labore iste quis quidem vitae
+                                tempora
+                                sed
+                                minima
+                                deleniti, beatae sapiente?</p>
+                            <h4>No sense? :(</h4>
+                        </td>
+
+                        <td class="five">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, cumque debitis? Delectus
+                                maiores
+                                quaerat
+                                vitae odit non, assumenda eius, laudantium iure aliquam iusto in similique repellendus
+                                vero.
+                                Quia,
+                                sed
+                                dolorem.</p>
+                            <img src="images/pic.webp" width="100px">
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+        <tr>
+            <td class="six head_foot">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </td>
+            <td class="six head_foot">
+                <div class="footer_textbox textbox">
+                    <h1>No grid, no flexbox</h1>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
