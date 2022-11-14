@@ -18,3 +18,9 @@ li {
     font-size: 100px;
     text-align: center;
 }
+
+.version {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+}
